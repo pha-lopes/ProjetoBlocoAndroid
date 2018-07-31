@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1018627686819",
+    "firebase_url": "https://projetodebloco-cadf9.firebaseio.com",
+    "project_id": "projetodebloco-cadf9",
+    "storage_bucket": "projetodebloco-cadf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018627686819:android:d49af2756c1876ff",
+        "android_client_info": {
+          "package_name": "com.example.pedro.projetoblocoandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018627686819-0t8hjpb06gp45c860e12u4kf1775gd92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pedro.projetoblocoandroid",
+            "certificate_hash": "7c0aff630ce5ec1f2b054dcabf34d3e59b906475"
+          }
+        },
+        {
+          "client_id": "1018627686819-uhht3nhbjl8medvqhveim4fhdst8s4rd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1018627686819-uhht3nhbjl8medvqhveim4fhdst8s4rd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2UPNVXeAAqqcGTGVs-hlnoTc3Jt4lruA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018627686819-uhht3nhbjl8medvqhveim4fhdst8s4rd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
