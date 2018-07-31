@@ -16,6 +16,13 @@ public class EditTextMask implements TextWatcher {
     }
 
     //Construtor de mascara para CPF,feito para n deixar hardcoded a mascara e caso exista uma necessidade de reutilizar a mascara
+
+    /***
+     * Construtor de máscara para CPF, feito para não deixar o valor diretamente no código
+     * da activity e caso exista uma necessidade de reutilizar a mesma.
+     *
+     * @return máscara para o EditText
+     */
     public static EditTextMask construirCPF(){
         return new EditTextMask("###.###.###-##");
     }
@@ -29,7 +36,13 @@ public class EditTextMask implements TextWatcher {
     public void onTextChanged(CharSequence s, int start, int before, int count) {
     }
 
-    //Codigo para adicionar a mask no EditText enquanto o user digita, aplicando apos o mesmo digitar o ultimo char antes dos pontos
+    /***
+     * Método para adicioanr a máscara no EditText enquanto o usuário digita os valores,
+     * aplicando após o mesmo digitar o último char antes dos pontos
+     *
+     * @param s
+     *
+     */
     @Override
     public void afterTextChanged(Editable s) {
         if(isRunning || isDeleting){

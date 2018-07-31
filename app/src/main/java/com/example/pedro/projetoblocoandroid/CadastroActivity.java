@@ -7,6 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+/***
+ * Classe que lida com o cadastro do usuário no aplicativo.
+ *
+ * @author Lucas
+ *
+ */
 public class CadastroActivity extends AppCompatActivity {
 
     @Override
@@ -28,7 +34,7 @@ public class CadastroActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Bundle bundle = new Bundle();
                 bundle.putString("Username", nome.getText().toString());
-                Intent intent = new Intent(CadastroActivity.this, StatusActivity.class);
+                Intent intent = new Intent(CadastroActivity.this, MainActivity.class);
                 intent.putExtras(bundle);
                 startActivity(intent);
             }

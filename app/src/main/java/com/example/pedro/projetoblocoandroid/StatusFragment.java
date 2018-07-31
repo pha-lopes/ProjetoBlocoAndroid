@@ -17,8 +17,14 @@ import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.vision.barcode.Barcode;
 
 
-/**
- * A simple {@link Fragment} subclass.
+/***
+ *
+ * Subclasse de {@link Fragment} que trabalha o status do usuário dentro da empresa.
+ * Exibe o status do usuário e permite que o mesmo realize uma leitura do QR Code.
+ *
+ * @author Pedro Lopes
+ * @version 1.0.1
+ *
  */
 public class StatusFragment extends Fragment {
 
@@ -35,7 +41,6 @@ public class StatusFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_status, container, false);
     }

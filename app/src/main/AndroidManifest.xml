@@ -11,19 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--<activity android:name=".MainActivityScan">-->
-        <!--<activity android:name=".ScanActivity">-->
-        <activity android:name=".MainActivity">
+        <!--<activity android:name=".MainActivity">-->
+        <activity android:name=".CadastroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".barcode.BarcodeCaptureActivity" />
-        <activity android:name=".CadastroActivity" />
-        <!--<activity android:name=".ScanActivity" />-->
-        <!--<activity android:name=".MainActivity" />-->
-        <activity android:name=".StatusActivity" />
+        <!--<activity android:name=".CadastroActivity" />-->
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
